@@ -1,0 +1,41 @@
+.videoFooter {
+  color: white;
+  width: 100%;
+  bottom: 10px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.videoFooter_text {
+  padding: 20px;
+}
+.videoFooter_text h5 {
+  margin: 5px 0;
+}
+.videoFooter_text p {
+  margin-top: 3px;
+}
+.videoFooter_logo {
+  animation: spinDisc infinite 5s linear;
+  font-size: 40px;
+  color: rgb(238, 238, 238);
+  filter: invert(1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+.songs {
+  display: flex;
+  margin: 5px 0;
+}
+@keyframes spinDisc {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
